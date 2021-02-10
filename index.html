@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel='icon' type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -13,27 +13,42 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
-  Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required. 
+  <header>
+  <h1>Simple, traffic-based pricing</h1>
+  <p class="medium-text">Sign-up for our 30-day trial. No credit card required.</p>
+  </header>
 
-  Pageviews
-  $ /month
+  <main class="pricing">
+    <div class="flex-between">
+      <p>Pageviews</p>
+      <p>$ /month</p>
+    </div>
+    <div class="slider">
 
-  Monthly Billing
-  Yearly Billing 25% discount
-
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
+    </div>
+    
+    <div class="toggle-yearly">
+      Monthly Billing
+    Yearly Billing 25% discount
+    </div>
+    
+    <div class="flex-between">
+      Unlimited websites
+      100% data ownership
+      Email reports
+    
+      Start my trial
+    </div>  
+    
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Srikant Nimmagadda</a>.
   </div>
 </body>
 </html>
