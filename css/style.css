@@ -7,13 +7,10 @@
   color: hsl(225, 20%, 60%);
   margin: 0;
   height: 100vh;
-  /* background-image: url(../images/bg-pattern.svg); */
+  background-image: url(../images/bg-pattern.svg);
   background-repeat: repeat-x;
-  /* background-position: top left; */
-  /* background-size: 100% 50%; */
-  background-image: url(../design/active-states.jpg);
-  background-position: top center;
-  background-size: 1440px;
+  background-position: top left;
+  background-size: 100% 50%;  
 }
 /* End main background */
 
@@ -43,9 +40,7 @@ header {
 
 /* Main Pircing section */
 .pricing {
-  background-color: hsl(0, 0%, 0%);
-  /* background-color: hsl(0, 0%, 100%); */
-  opacity: 0.5;
+  background-color: hsl(0, 0%, 100%);
   margin: auto;
   padding: 25px 50px;
   width: 440px;
@@ -83,6 +78,8 @@ header {
 
 .price {
   font-size: 40px;
+  color: hsl(227, 35%, 25%);
+  font-weight: 900;
 }
 /* End Pageviews and Price */
 
@@ -108,13 +105,39 @@ hr {
   margin: 10px;
 }
 
-.price-toggle {
-  --discount-background: hsl(14, 92%, 95%);
-  --discount-text: hsl(15, 100%, 70%);
-  --toggle-background: hsl(223, 50%, 87%);
+/* List and Button */
+#list-and-button {
+  padding: 4px 0;
 }
 
-.start-button {
-  --button-text: hsl(226, 100%, 87%);
-  --button-background: hsl(227, 35%, 25%);
+ul {
+  list-style-image: url("../images/icon-check.svg");
+  /* list-style: none; */
+  padding: 0 15px;
+  font-size: 12px;
 }
+
+li {
+  padding: 5px 8px;
+}
+
+#start-trial {
+  background-color: hsl(227, 35%, 25%);
+  color: hsl(226, 100%, 87%);
+  width: 170px;
+  height: 45px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+/* End List and Button */
+
+/* Attribution */
+footer {
+  font-size: 11px; 
+  text-align: center; 
+}
+
+footer a { 
+  color: hsl(228, 45%, 44%); 
+}
+/* End Attribution */

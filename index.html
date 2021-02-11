@@ -7,12 +7,7 @@
   <link rel='icon' type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive pricing component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/slider.css">
   <link rel="stylesheet" href="/css/toggle.css">
@@ -37,26 +32,28 @@
         <input type="checkbox">
         <span class="toggle-slider"></span>
       </label>
-    Yearly Billing
+      Yearly Billing
     <span class="discount">25% discount</span>
     </div>
     
     <hr>
 
-    <div class="flex-between">
-      Unlimited websites
-      100% data ownership
-      Email reports
-    
-      Start my trial
+    <div id="list-and-button" class="flex-between">
+      <ul>
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
+      </ul>
+      
+      <button id="start-trial" value="start">Start my trial</button>
     </div>  
     
   </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Srikant Nimmagadda</a>.
-  </div>
+  </footer>
 
   <script src="src/main.js"></script>
 </body>
