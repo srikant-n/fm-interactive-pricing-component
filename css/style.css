@@ -129,10 +129,16 @@ li {
   border-radius: 45px;
   cursor: pointer;
 }
+
+#start-trial:hover {
+  color: white;
+}
 /* End List and Button */
 
 /* Attribution */
 footer {
+  position: relative;
+  bottom: 0;
   font-size: 11px; 
   text-align: center; 
 }
