@@ -71,6 +71,7 @@ header {
   letter-spacing: 1px;
   justify-self: flex-start;
   flex-basis: 50%;
+  order: 0;
 }
 
 #price-month {
@@ -80,6 +81,7 @@ header {
   gap: 10px;
   justify-self: flex-end;
   flex-basis: 50%;
+  order: 0;
 }
 
 .price {
@@ -89,11 +91,19 @@ header {
 }
 /* End Pageviews and Price */
 
+/* Price Slider */
+#price-slider {
+  margin: 25px 0;
+  order: 1;
+}
+/* End Price Slider */
+
 /* Billing Toggle */
-.toggle-billing {
+#toggle-billing {
   margin: 30px 0;
   /* align-self: flex-end; */
   font-size: 12px;
+  order: 2;
 }
 
 .discount {
@@ -122,11 +132,12 @@ hr {
 /* List and Button */
 #info-list {
   list-style-image: url("../images/icon-check.svg");
-  padding: 30px 0 0 15px;
-  /* padding: 7% 0 0 5%; */
+  list-style-position: inside;
+  padding: 30px 0 0 0;
   font-size: 12px;
   justify-self: flex-start;
-  flex-basis: 45%;
+  flex-basis: 50%;
+  order: 3;
 }
 
 #info-list li {
@@ -139,6 +150,7 @@ hr {
   padding: 30px 0 0 0;
   flex-basis: 50%;  
   justify-self: flex-end;
+  order: 3;
 }
 
 #start-trial {
@@ -170,15 +182,72 @@ footer a {
   color: hsl(228, 45%, 44%);
 }
 /* End Attribution */
-/* 
+
+#discount-desktop {
+  display: inline;
+}
+
+#discount-mobile {
+  display: none;
+}
+
 @media (orientation: portrait) {
   .pricing {
     max-width: 60vw;
     height: 500px;
-    max-height: 70vh;
+    max-height: 65vh;
     top: 60%;
+    padding: 5% 10%;
+    text-align: center;
   }
 
+  #discount-desktop {
+    display: none;
+  }
+
+  #discount-mobile {
+    display: inline;
+  }
+
+  #pageviews {
+    order: 0;
+  }
+
+  #price-slider {
+    order: 1;
+  }
+
+  #price-month {
+    order: 2;
+    margin: 25px 0;
+  }
+
+  #toggle-billing {
+    order: 3;
+  }
+
+  hr {
+    bottom: 38%;
+  }
+
+  #info-list {
+    order: 4;
+    flex-basis: 100%;
+    text-align: center;
+    justify-self: center;
+  }
+
+  #start-trial-holder {
+    order: 5;
+    flex-basis: 100%;
+    text-align: center;
+    padding:  20px 0;
+  }
+
+  #start-trial {
+    order: 5;
+    width: 200px;
+  }
 
   footer {
     bottom: 0%;
@@ -196,9 +265,10 @@ footer a {
 
   .pricing {
     top: 55%;
+    padding: 2% 5%;
   }
 
   footer {
     bottom: 0%;
   }
-} */
+}

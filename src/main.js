@@ -8,7 +8,7 @@ function updateSliderColor(slider) {
     slider.style.background = `linear-gradient(to right, ${SLIDER_COLOR_FULL} 0%, ${SLIDER_COLOR_FULL} ${value}%, ${SLIDER_COLOR_EMPTY} ${value}%, ${SLIDER_COLOR_EMPTY} 100%)`;
 }
 
-document.querySelector(".price-slider").addEventListener('input',(event) => updateSliderColor(event.target));
+document.getElementById("price-slider").addEventListener('input',(event) => updateSliderColor(event.target));
 
 
-updateSliderColor(document.querySelector(".price-slider"));
+updateSliderColor(document.getElementById("price-slider"));

@@ -30,16 +30,17 @@
     <p id="pageviews">100k Pageviews</p>
     <p id="price-month"><span class="price">$16.00</span><span>/month</span></p>
 
-    <input type="range" class="price-slider" min=1 max=5>
+    <input type="range" id="price-slider" min=1 max=5>
 
-    <div class="toggle-billing">
+    <div id="toggle-billing">
       Monthly Billing
       <label class="toggle">
         <input type="checkbox">
         <span class="toggle-slider"></span>
       </label>
       Yearly Billing
-      <span class="discount">25% discount</span>
+      <span id="discount-desktop" class="discount">25% discount</span>
+      <span id="discount-mobile" class="discount">-25%</span>
     </div>
 
     <hr>
