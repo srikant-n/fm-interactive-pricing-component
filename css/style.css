@@ -137,6 +137,7 @@ li {
 
 /* Attribution */
 footer {
+  margin: 40px;
   position: relative;
   bottom: 0;
   font-size: 11px; 
