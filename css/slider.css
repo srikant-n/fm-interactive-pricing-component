@@ -17,7 +17,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 45px;
   height: 45px;
   background: hsla(174, 86%, 45%, 0.8);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -30,7 +30,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-webkit-slider-thumb:hover {
   background: hsla(174, 86%, 45%, 1);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -41,7 +41,7 @@ input[type="range"]::-moz-range-thumb {
   width: 45px;
   height: 45px;
   background: hsla(174, 86%, 45%, 0.8);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -54,7 +54,7 @@ input[type="range"]::-moz-range-thumb {
 
 input[type="range"]::-moz-range-thumb:hover {
   background: hsla(174, 86%, 45%, 1);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -65,7 +65,7 @@ input[type="range"]::-ms-thumb {
   width: 45px;
   height: 45px;
   background: hsla(174, 86%, 45%, 0.8);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -78,7 +78,7 @@ input[type="range"]::-ms-thumb {
 
 input[type="range"]::-ms-thumb:hover {
   background: hsla(174, 86%, 45%, 1);
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel='icon' type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Interactive pricing component</title>
-  
+
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/slider.css">
   <link rel="stylesheet" href="./css/toggle.css">
 </head>
+
 <body>
 
   <header>
-  <h1>Simple, traffic-based pricing</h1>
-  <p class="medium-text">Sign-up for our 30-day trial. No credit card required.</p>
+    <h1>Simple, traffic-based pricing</h1>
+    <p class="medium-text">Sign-up for our 30-day trial. No credit card required.</p>
   </header>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/srikant-n">Srikant Nimmagadda</a>.
+  </footer>
 
   <main class="pricing">
     <div class="flex-between">
@@ -25,7 +32,7 @@
       <p class="price-month"><span class="price">$16.00</span>/month</p>
     </div>
     <input type="range" class="price-slider" min=1 max=5>
-    
+
     <div class="toggle-billing">
       Monthly Billing
       <label class="toggle">
@@ -33,9 +40,9 @@
         <span class="toggle-slider"></span>
       </label>
       Yearly Billing
-    <span class="discount">25% discount</span>
+      <span class="discount">25% discount</span>
     </div>
-    
+
     <hr>
 
     <div id="list-and-button" class="flex-between">
@@ -44,17 +51,13 @@
         <li>100% data ownership</li>
         <li>Email reports</li>
       </ul>
-      
+
       <button id="start-trial" value="start">Start my trial</button>
-    </div>  
-    
+    </div>
+
   </main>
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/srikant-n">Srikant Nimmagadda</a>.
-  </footer>
 
   <script src="./src/main.js"></script>
 </body>
+
 </html>

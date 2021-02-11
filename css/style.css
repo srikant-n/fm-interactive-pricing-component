@@ -22,15 +22,18 @@ h1 {
 }
 
 header {
-  margin: 70px auto 55px auto;
+  position: fixed;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-image: url(../images/pattern-circles.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   text-align: center;
-  max-height: 15%;
+  max-height: 15vh;
   height: 100px;
-  padding: 20px
+  padding: 20px;
 }
 
 .medium-text {
@@ -40,13 +43,17 @@ header {
 
 /* Main Pircing section */
 .pricing {
-  background-color: hsl(0, 0%, 100%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: auto;
   padding: 25px 50px;
+  background-color: hsl(0, 0%, 100%);
   width: 440px;
   height: 350px;
-  max-width: 90%;
-  max-height: 60%;
+  max-width: 90vw;
+  max-height: 65vh;
   box-shadow: 0 0 40px hsl(225, 20%, 90%);
   border-radius: 10px;
   display:flex;
@@ -137,9 +144,10 @@ li {
 
 /* Attribution */
 footer {
-  margin: 40px;
-  position: relative;
-  bottom: 0;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 11px; 
   text-align: center; 
 }
@@ -148,3 +156,22 @@ footer a {
   color: hsl(228, 45%, 44%); 
 }
 /* End Attribution */
+
+
+@media (orientation:landscape) and (max-height: 600px) {
+  h1 {
+    line-height: 50%;
+  }
+  
+  header {
+    top: 8%;
+  }
+
+  .pricing {
+    top: 55%;
+  }
+
+  footer {
+    bottom: 0%;
+  }
+}
