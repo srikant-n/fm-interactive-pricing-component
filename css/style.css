@@ -78,7 +78,7 @@ header {
 
 #pageviews {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .price {
@@ -86,19 +86,27 @@ header {
 }
 /* End Pageviews and Price */
 
-/* Yearly Toggle */
-.toggle {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+/* Billing Toggle */
+.toggle-billing {
+  margin: 30px 10px;
+  align-self: flex-end;
+  font-size: 12px;
 }
-.toggle input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
+
+.discount {
+  background-color: hsl(14, 92%, 95%);
+  color: hsl(15, 100%, 70%);
+  border-radius: 15px;
+  padding: 2px 6px;
+  margin: 8px;
+  font-size: 10px;
 }
-/* Yearly Toggle End */
+/* Billing Toggle End */
+
+hr {
+  width: 540px;
+  margin: 10px;
+}
 
 .price-toggle {
   --discount-background: hsl(14, 92%, 95%);
