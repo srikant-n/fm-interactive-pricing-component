@@ -1,10 +1,12 @@
 # Frontend Mentor - Interactive pricing component
 
-Done using plain HTML, CSS and JavaScript.
+Created using HTML, CSS (Flexbox) and JavaScript.
 Challenge [readme](./readme-challenge.md/) and [design images](./design/) are available
 There is also a `style-guide.md` file, which contains the information needed for the challenge, such as color palette and fonts.
 
-![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
+[View result site](https://srikant-n.github.io/fm-interactive-pricing-component/index.html)
+
+[Challenge info on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8)
 
 ## The challenge
 
