@@ -101,7 +101,6 @@ header {
 /* Billing Toggle */
 #toggle-billing {
   margin: 30px 0;
-  /* align-self: flex-end; */
   font-size: 12px;
   order: 2;
 }

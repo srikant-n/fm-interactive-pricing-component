@@ -30,12 +30,12 @@
     <p id="pageviews">100k Pageviews</p>
     <p id="price-month"><span class="price">$16.00</span><span>/month</span></p>
 
-    <input type="range" id="price-slider" min=1 max=5>
+    <input type="range" id="price-slider" min=1 max=5 aria-label="Pageviews an Price">
 
     <div id="toggle-billing">
       Monthly Billing
       <label class="toggle">
-        <input type="checkbox">
+        <input id="toggle-yearly" type="checkbox" aria-label="Toggle Yearly">
         <span class="toggle-slider"></span>
       </label>
       Yearly Billing
