@@ -200,6 +200,10 @@ footer a {
     text-align: center;
   }
 
+  .header-info {
+    display: block;
+  }
+
   #discount-desktop {
     display: none;
   }
